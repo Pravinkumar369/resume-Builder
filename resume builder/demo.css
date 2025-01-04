@@ -1,0 +1,28 @@
+body{
+    background: url("WhatsApp Image 2023-10-16 at 19.35.35_6f362bdf.jpg");
+    background-size: cover;
+    background-position: center;
+   
+}
+h2{
+   
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 40px;
+    color: darksalmon;
+    margin-left: 35vw;
+}
+img{
+    margin-left:20vh;
+}
+a{
+    font-size: 30px;
+    color: coral;
+}
+p{
+    font-size: 20px;
+   
+}
+a:hover{
+        color: greenyellow;  
+}

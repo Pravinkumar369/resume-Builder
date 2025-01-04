@@ -1,0 +1,47 @@
+body{
+    background: url("index.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+.logo{
+    display: flex;
+}
+h2{
+    font-size: 40px;
+    color: rgb(9, 9, 151);
+    margin-left: 35vw;
+   
+}
+h3{
+    margin-top: 10vh;
+    font-size: 30px;
+    color:rgb(234, 43, 43);
+   text-decoration: dotted;
+    margin-left: 35vw;  
+}
+h4{
+    text-decoration: underline;
+    margin-left:35vw ;
+    margin-top: 5vh;
+    font-size: 25px; 
+}
+ol{
+    font-family: cursive;
+    color: chocolate;
+    margin-left: 35vw;
+    margin-top: 5vh;
+    font-size: 20px;
+}
+button{
+    margin-left: 50vw;
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgb(216, 46, 46);
+    font-size: 25px;
+    margin-top:20px;
+   box-shadow: 10px 10px 5px;
+    box-sizing: content-box;
+    
+  
+}

@@ -1,0 +1,134 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+.header{
+    
+    display: flex;
+    background-color: orange;
+    height: 15vh;
+    background-position: left;
+}
+img{
+    border-radius: 180px;
+    margin-left: 120px;
+}
+
+
+.menu{
+    display: flex;
+    background-color:white;
+    height: 15vh;
+}
+.black{
+    display: flex;
+    background-color:rgb(120, 119, 119);
+    height: 15vh;
+}
+#head{
+    display: flex;
+    background-color: rgb(49, 142, 155);
+    color: rgb(227, 226, 226);
+}
+
+
+
+#name{
+    background-color:  rgb(49, 142, 155);
+    font-size: 20px;
+    color:white;
+}
+h3{
+    
+    color: white;
+    background-color: orange;
+   
+    border: 1px solid black;
+    width: 400px;
+    border-style:double;
+    border-color: greenyellow;
+    border-top-width:7px;
+    padding: 15px;
+    margin: 20px;
+}
+input{
+    border: none;
+
+}
+textarea{
+    border: none;
+    margin-left:80px;
+    font-size: 20px;
+}
+.outer{
+    display: flex;
+    justify-content: flex-start;
+   
+}
+.one{
+    flex-grow: 5;
+    margin-left: 60px;
+}
+.two{
+    flex-grow: 5;
+    margin-left: 30px;
+    background-color: orange;
+}
+#profile{
+    background-color: orange;
+}
+#education{
+    background-color: orange;
+}
+#course{
+    background-color: orange;
+}
+#experience{
+    background-color: orange;
+}
+#he{
+    background-color:#787777; 
+}
+#ki{
+    background-color: #787777;
+    font-size:30px;
+    color:orange;
+    margin-left: 50vh;
+}
+footer{
+    background-color: #787777;
+    height: 5vh;
+    margin-top: 150px;
+}
+#email{
+    font-size: 20px;
+    margin-left: 10px;
+ }
+ #phone{
+     font-size: 20px;
+     margin-left: 10px;
+ }
+ #add{
+     font-size: 20px;
+     margin-left: 10px;
+ }
+ #a{
+     font-size: 40px;
+ }
+ #print{
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgb(83, 91, 252);
+    font-size: 25px;
+    margin-top:20px;
+   box-shadow: 10px 10px 5px;
+    box-sizing: content-box;
+}
+
+
+@media print{
+    body{-webkit-print-color-adjust:exact;}
+}
+

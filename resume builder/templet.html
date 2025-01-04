@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="templet.css">
+</head>
+<body>
+    <div class="header">
+       
+  <img src="" alt="" id="img" style='height:250px;'>
+        <div>
+       <input type="text" id="name" placeholder=" EX:AJITH">
+        <textarea name="header" id="head" cols="30" rows="10" placeholder="about your field"></textarea>
+    </div>
+    </div>    
+<div class="outer">
+
+    <div class="one">
+    <div class="get">
+    <h3>GET IN CONTACT</h3>
+    
+    <span id="a">&#9993;</span>
+    <input  type="email" id="email"><br>
+
+<span id="a">&#128241;</span>
+<input type="number" id="phone"><br>
+
+    <span id="a">&#6768</span>
+    <input type="text" id="add"><br>
+
+</div>
+
+    
+    <div class="personal">
+        <h3>PERSONAL DETAILS</h3>
+        <textarea name="personal" id="personal" cols="30" rows="10" placeholder="">
+Total experience   :  
+Date of birth      :
+gender             :
+Marital status     :  
+        </textarea>
+    </div>
+
+    <div class="skill">
+        <h3>SKILLS</h3>
+        <textarea name="skill" id="skill" cols="30" rows="10" placeholder="* Java">
+
+
+        </textarea>
+    </div>
+ 
+
+    <div class="tech">
+        <h3>TECHNICAL SKILLS</h3>
+        <textarea name="tech" id="tech" cols="30" rows="10" placeholder="* WEb design">
+
+        </textarea>
+    </div>
+
+    <div class="lang">
+        <h3>LANGUAGES KNOWN</h3>
+        <textarea name="lang" id="lang" cols="30" rows="10" placeholder="tamil"></textarea>
+    </div>
+</div>
+         
+
+               <div class="two">
+
+                <div class="profile">
+                    <h3>PROFILE SUMMARY</h3>
+                    <textarea name="profile" id="profile" cols="30" rows="10"></textarea>
+
+                    
+                    <div class="education">
+                        <h3>EDUCATION HISTORY</h3>
+                        <textarea name="education" id="education" cols="30" rows="10" >
+GRADUATION
+   
+    course          :
+    College         :
+    Year of passing :
+    CGPA            :
+                                                
+                        
+SSLC
+                                                    
+    Board         :
+    Medium        :
+    School        :
+    Percentage    :
+                                                
+HSC
+                            
+    Board         :
+    Medium        :
+    School        :
+    Percentage    :
+                        </textarea>
+                    </div>
+
+                    <div class="course ">
+                        <h3>COURSE CERTIFICATION</h3>
+                        <textarea name="course" id="course" cols="30" rows="10" placeholder="AWS CERTIFICATE"></textarea>
+                    </div>
+                      
+                    <div class="experience ">
+                        <h3>EXPERIENCE</h3>
+                        <textarea name="experience" id="experience" cols="30" rows="10" placeholder="5year of experience"></textarea>
+                    </div>
+
+                    <footer>
+                       
+                        
+                    </footer>  
+            </div>
+                    
+         </div>
+         </div>
+
+            <input value="print" id="print" type="button" onclick="handlePrint()" />  
+<script type="text/javascript">
+    const handlePrint =()=>{
+        var actContents=document.body.innerCSS;
+        document.body.innerCSS=actContents;
+        window.print();
+
+    }
+
+
+    function readURL(input) {
+    if (input.files && input.files[0]) {
+    
+      var reader = new FileReader();
+      reader.onload = function (e) { 
+        document.querySelector("#img").setAttribute("src",e.target.result);
+      };
+
+      reader.readAsDataURL(input.files[0]); 
+    }
+  }
+
+    
+</script>
+
+<input type='file' accept='image/*'  onchange="readURL(this)" ></p>   
+<a href="mailto:coders-resume@gmail.com">send to a mail</a>
+
+
+
+       
+</body>
+</html>

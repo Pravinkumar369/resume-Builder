@@ -1,0 +1,98 @@
+.header{
+    
+    display: flex;
+   
+    height: 30vh;
+}
+#nav{
+    display: flex;
+    background-color: blanchedalmond;
+    height: 10vh;
+}
+#head{
+    display: flex;
+    font-size: 20px;
+    color: black;
+}
+img{
+    margin-left: 60px;
+    margin-top: 10px;
+    border-radius: 360px;
+}
+#name{
+     margin-left: 40px;
+    font-size: 30px;
+    color:black;
+}
+h3{
+   
+    color:  rgb(45, 34, 141);
+    background-color: blanchedalmond;color:darkgoldenrod;
+   
+    border: 1px solid black;
+    width: 400px;
+    border-style:double;
+    border-color: rgb(173, 173, 240);
+    border-top-width:7px;
+    padding: 15px;
+    margin: 20px;
+    
+    
+}
+input{
+    border: none;
+    border-bottom: red;
+}
+textarea{
+    border: none;
+    margin-left: 80px;
+    font-size: 25px;
+}
+.outer{
+    display: flex;
+    justify-content: flex-start;
+}
+.one{
+    flex-grow: 5;
+    margin-left: 60px;
+}
+.two{
+    flex-grow: 5;
+    margin-left: 30px;
+}
+.ver{
+    display: flex;
+    border-left: 1px solid black;
+    height:150vh;
+    position: absolute;
+    left:45%;
+    top:40vh 3px;
+}
+#email{
+    font-size: 20px;
+    margin-left: 10px;
+ }
+ #phone{
+     font-size: 20px;
+     margin-left: 10px;
+ }
+ #add{
+     font-size: 20px;
+     margin-left: 10px;
+ }
+ #a{
+     font-size: 40px;
+ }
+ #print{
+    border-radius: 10px;
+    border-color: black;
+    background-color: rgb(83, 91, 252);
+    font-size: 25px;
+    margin-top:20px;
+   box-shadow: 10px 10px 5px;
+    box-sizing: content-box;
+}
+@media print{
+    body{-webkit-print-color-adjust:exact;}
+}
+
